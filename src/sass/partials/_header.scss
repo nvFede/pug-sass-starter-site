@@ -1,0 +1,41 @@
+.header {
+  padding: 2rem;
+  height: 8rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: $secondary-color;
+  align-items: center;
+  position: fixed;
+
+  &__logo {
+    color: $light-color;
+    font-family: $alternative-font;
+  }
+
+  .nav {
+    display: flex;
+    align-items: center;
+    ;
+
+    &__item {
+      margin-right: 1rem;
+      display: inline-block;
+
+      &--selected {
+        border-bottom: 2px solid $primary-color;
+      }
+
+      &--alt {
+        background-color: lighten($primary-color, 20);
+        padding: 0.5rem 0.8rem;
+      }
+    }
+
+    &__link {
+      text-decoration: none;
+      color: black;
+      color: $light-color;
+    }
+  }
+}

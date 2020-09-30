@@ -1,0 +1,36 @@
+.sidebar {
+  width: 100px;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  margin-left: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+
+  &__nav {}
+
+  .nav {
+    &__item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      list-style: none;
+      background-color: $primary-color;
+      border-radius: 50%;
+      height: 40px;
+      width: 40px;
+      margin-top: 1em;
+
+      &:hover {
+        background-color: lighten($primary-color, 20);
+
+      }
+    }
+
+    &__link {
+      color: white;
+    }
+  }
+}
