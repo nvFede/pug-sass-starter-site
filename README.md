@@ -11,13 +11,13 @@ Simple starter site with:
 ## Download
 
 ```bash
-git clone git@github.com:nvFede/starter-site.git
+git clone git@github.com:nvFede/pug-sass-starter-site.git
 ```
 
 ## Installation
 
 ```bash
-cd starter-site
+cd pug-sass-starter-site
 ```
 
 ```bash
